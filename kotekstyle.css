@@ -2,18 +2,17 @@
 
 
 body{
-    background-image: linear-gradient(white,pink,rgb(89, 0, 255));
+    background-image: linear-gradient(rgb(0, 17, 255),rgb(255, 0, 242),rgb(255, 0, 85));
     height: 100%;
-}
-.text1{
     font-family: 'Inter', sans-serif;
     font-family: 'La Belle Aurore', cursive;
+}
+.text1{
+    
     font-size: 60px;
     
 }
 .text2{
-    font-family: 'Inter', sans-serif;
-    font-family: 'La Belle Aurore', cursive;
     font-size: 50px;
     width: 100vw;
 }
@@ -21,18 +20,38 @@ body{
     width: 400px;
     height: 500px;
     float: left;
+    margin-left: 15px;
 
 }
 .photoAndText1{
-    font-family: 'Inter', sans-serif;
-    font-family: 'La Belle Aurore', cursive;
     font-size: 100px;
     width: 100vw;
     display: flex;
 }
 .textUnderPhoto{
     width: 90vw;
-    font-family: 'Inter', sans-serif;
-    font-family: 'La Belle Aurore', cursive;
-    font-size: 40px;   
+    font-size: 50px;
+    margin-bottom: 100px;   
+}
+.photo1{
+    height: 600px;
+    float: right;
+    margin-right: 15px;
+    display: flex;
+}
+.photoAndText2{
+    font-size: 70px;
+}
+.textUnderPhoto2{
+    margin-top: 100px;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+.photoAndText3{
+    display: flex;
+    justify-content: center;
+}
+.text3{
+    font-size: 70px;
+    margin-left: 100px;
 }
