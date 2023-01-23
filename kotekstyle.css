@@ -4,21 +4,67 @@
 body{
     background-image: linear-gradient(rgb(0, 17, 255),rgb(255, 0, 242),rgb(255, 0, 85));
     height: 100%;
+    margin-left: 20px;
 }
 .text1{
     font-size: 60px;
-    margin-left: 10vw;
+    margin-bottom: 70px;
 }
 .text2{
     font-size: 50px;
     width: 100vw;
+    margin-bottom: 50px;
 }
-.photo{
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    width: 410px;
+    height: 510px;
+    background-color: black;
+    border-radius: 20px;
+}
+.box::before{
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    background-image: conic-gradient(transparent,transparent,transparent, #ff0000);
+    animation: animate 4s linear infinite;
+}
+.box span
+{
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    background-color: black;
+    z-index: 1;
+}
+.photo
+{
+    border-radius: 16px;
     width: 400px;
     height: 500px;
     float: left;
-    margin-left: 15px;
+    
+
 }
+
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg)
+    }
+}
+
 .photoAndText1{
     font-size: 100px;
     width: 100vw;
@@ -35,7 +81,7 @@ body{
     margin-right: 15px;
 }
 .photoAndText2{
-    margin-bottom: 300px;
+    margin-bottom: 350px;
     font-size: 70px;
 }
 .textUnderPhoto2{
@@ -48,6 +94,5 @@ body{
     justify-content: center;
 }
 .text3{
-    font-size: 70px;
-    margin-left: 13vw;
+    font-size: 70px; 
 }
