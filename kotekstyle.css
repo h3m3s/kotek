@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=La+Belle+Aurore&display=swap');
+
+
+body{
+    background-image: linear-gradient(white,pink);
+    height: 100cm;
+
+}
+.text1{
+    font-family: 'Inter', sans-serif;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 100px;
+    
+}
+.text2{
+    font-family: 'Inter', sans-serif;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 50px
+}
+.photo{
+    width: 300px;
+    float: left;
+
+}
+.photoAndText1{
+    font-family: 'Inter', sans-serif;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 100px;
+    display: flex;
+}
