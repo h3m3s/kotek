@@ -6,7 +6,8 @@ body{
     height: 100%;
 }
 .text1{
-    font-size: 140px;
+    font-size: 100px;
+    margin-left: 10vw;
 }
 .text2{
     font-size: 50px;
@@ -34,6 +35,7 @@ body{
     margin-right: 15px;
 }
 .photoAndText2{
+    margin-bottom: 300px;
     font-size: 70px;
 }
 .textUnderPhoto2{
