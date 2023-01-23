@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=La+Belle+Aurore&display=swap');
+
 
 
 body{
@@ -6,9 +6,7 @@ body{
     height: 100%;
 }
 .text1{
-    
     font-size: 60px;
-    
 }
 .text2{
     font-size: 50px;
@@ -19,7 +17,6 @@ body{
     height: 500px;
     float: left;
     margin-left: 15px;
-
 }
 .photoAndText1{
     font-size: 100px;
