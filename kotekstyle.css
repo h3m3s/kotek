@@ -4,8 +4,6 @@
 body{
     background-image: linear-gradient(rgb(0, 17, 255),rgb(255, 0, 242),rgb(255, 0, 85));
     height: 100%;
-    font-family: 'Inter', sans-serif;
-    font-family: 'La Belle Aurore', cursive;
 }
 .text1{
     
