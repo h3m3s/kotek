@@ -2,29 +2,40 @@
 
 
 body{
-    background-image: linear-gradient(white,pink);
-    height: 100cm;
+    background-image: linear-gradient(white,pink,red);
+    height: 100%;
+    margin-left: 20px;
 
 }
 .text1{
     font-family: 'Inter', sans-serif;
     font-family: 'La Belle Aurore', cursive;
-    font-size: 100px;
+    font-size: 60px;
     
 }
 .text2{
     font-family: 'Inter', sans-serif;
     font-family: 'La Belle Aurore', cursive;
-    font-size: 50px
+    font-size: 50px;
+    width: 50vw;
 }
 .photo{
-    width: 300px;
+    width: 200px;
+    height: 300px;
     float: left;
 
 }
 .photoAndText1{
     font-family: 'Inter', sans-serif;
     font-family: 'La Belle Aurore', cursive;
-    font-size: 100px;
+    font-size: 60px;
+    width: 50%;
     display: flex;
+}
+.textUnderPhoto{
+    width: 54%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 30px;
+    
 }
