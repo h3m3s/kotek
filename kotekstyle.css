@@ -23,7 +23,7 @@ body{
     align-items: center;
     overflow: hidden;
     position: relative;
-    width: 410px;
+    width: 40vw;
     height: 510px;
     background-color: black;
     border-radius: 16px;
@@ -65,12 +65,40 @@ body{
 .box2::before{
     content: '';
     position: absolute;
-    width: 600px;
-    height: 700px;
+    width: 800px;
+    height: 900px;
     background-image: conic-gradient(transparent,transparent,transparent, rgb(251, 255, 0));
     animation: animate 4s linear infinite;
 }
 .box2 span
+{
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    background-color: black;
+    z-index: 1;
+}
+.box3{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    width: 550px;
+    height: 490px;
+    background-color: black;
+    border-radius: 16px;
+}
+.box3::before{
+    content: '';
+    position: absolute;
+    width: 800px;
+    height: 900px;
+    background-image: conic-gradient(transparent,transparent,transparent, rgb(0, 255, 55));
+    animation: animate 4s linear infinite;
+}
+.box3 span
 {
     position: absolute;
     inset: 5px;
@@ -120,4 +148,7 @@ body{
 }
 .text3{
     font-size: 70px; 
+}
+.photo2{
+    border-radius: 16px;
 }
