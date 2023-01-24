@@ -1,4 +1,3 @@
-
 body{
     background-image: linear-gradient(rgb(0, 17, 255),rgb(255, 0, 242),rgb(255, 0, 85));
     height: 100%;
@@ -9,9 +8,10 @@ body{
     margin-bottom: 70px;
 }
 .text2{
-    font-size: 50px;
+    font-size: 9vw;
     width: 100vw;
     margin-bottom: 50px;
+    margin-top: -20vw;
 }
 
 .box{
@@ -146,10 +146,14 @@ body{
     justify-content: center;
 }
 .text3{
-    font-size: 10vw; 
+    font-size: 11vw; 
 }
 .photo2{
     border-radius: 16px;
     width: 100%;
     height: 100%;
+}
+.textUnderPhoto3{
+    margin-top: 10vw;
+    font-size: 10vw;
 }
