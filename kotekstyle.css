@@ -85,7 +85,7 @@ body{
     overflow: hidden;
     position: relative;
     width: 70vw;
-    height: 40vw;
+    height: 60vw;
     background-color: black;
     border-radius: 16px;
 }
@@ -112,7 +112,7 @@ body{
     align-items: center;
     overflow: hidden;
     position: relative;
-    width: 46vw;
+    width: 40vw;
     height: 84.9vw;
     background-color: black;
     border-radius: 16px;
